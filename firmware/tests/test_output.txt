@@ -1,0 +1,10 @@
+constant signal: not judged before window is full          PASS
+constant signal: flagged when window is full               PASS
+steady water + 3-count ADC noise: not flagged              PASS
+1000 healthy readings: not flagged                         PASS
+    -> flagged 90 readings after freezing (window = 90)
+healthy then frozen: flagged within one window             PASS
+    -> 91 logged readings, pH board voltage 2.875 V, window std 0.000000 V
+logged bench test: frozen pH channel flagged               PASS
+
+ALL PASSED (0 failures)

@@ -1,0 +1,20 @@
+# --- Arduino IDE Build Artifacts ---
+*.el
+*.hex
+*.bin
+*.eep
+*.lst
+*.sym
+*.lss
+build/
+**/.string_cache/
+
+# --- Raspberry Pi Pico Specifics ---
+.pio/
+.pioenvs/
+/cmake-build-*/
+
+# --- OS & Editor Junk ---
+.DS_Store
+Thumbs.db
+.vscode/
